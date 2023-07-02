@@ -1,0 +1,10 @@
+<nav class="navbar bg-dark shadow">
+    <div class="container-fluid">
+      <a routerLink="/" class="navbar-brand text-light">
+       PC Builder
+      </a>
+      <button (click)="goToCart()" type="button" class="btn btn-outline-primary">
+        Cart <span class="badge badge-light bg-warning">{{cartItems.length}}</span>
+      </button>
+    </div>
+  </nav>

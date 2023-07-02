@@ -1,0 +1,16 @@
+.item-card {
+    height: 300px;
+    .col-3 img {
+        height: 100%;
+        max-width: 100%;
+    }
+
+    .col-7 img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .abt-text {
+        font-size: 12px;
+    }
+}

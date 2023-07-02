@@ -1,0 +1,47 @@
+[
+    {
+        "itemName":"IRVINE 8 GB DDR3 1600 MHz",
+        "brand":"Irvine",
+        "model":"8 GB",
+        "price":"9",
+        "image":"../../assets/ram-1.jpg",
+        "type":"RAM",
+        "about":"Reduce power consumption by up to 40% and extend battery life, Optimized for next generation processors and platforms, Type: DDR3 SDRAM, Non- ECC Unbuffered, Pin-240 Volt- 1.35v/1.5v, Check Compatibility before Purchase. Make sure your motherboard supports up to 1600MHz to get optimum performance"
+    },
+    {
+        "itemName":"ALKETRON Quantum Cache – 16GB DDR4 3200MHz",
+        "brand":"ALKETRON",
+        "model":"16 GB",
+        "price":"2300",
+        "image":"../../assets/ram-2.jpg",
+        "type":"RAM",
+        "about":"Assembled In India, Door to Door pickup & aftersales services available all over India | ALKETRON Quantum Cache Extreme Gaming RAM (Memory) - DDR4 (SDRAM) for Standard and Gaming Desktop with heatsink PC, 16GB | 3200MHz | DUAL CHANNEL | 1.2v | UDIMM | 288 PIN | Unbuffered | CAS Latency - CL22 - PC4-25600 | Compatible with INTEL & AMD"
+    },
+    {
+        "itemName":"XPG ADATA GAMMIX D30 DDR4 3GB (1x8GB) 3200MHz",
+        "brand":"XPG",
+        "model":"3 GB",
+        "price":"16",
+        "image":"../../assets/ram-1.jpg",
+        "type":"RAM",
+        "about":"Do refer to the installation instruction and compatible processor support list in the image section, GAMMIX D30 brings you excellent performance with speeds ranging from 2666MHz to 4600MHz and supports Intel X299 2666MHz and AMD AM4 / Ryzen platforms. CAS Latency : CL16-18-18, Interface: DDR4 U-DIMM 2666-4133MHz, RAM Size: 8GB (8x16GB) DDR4"
+    },
+    {
+        "itemName":"XPG ADATA GAMMIX D30 DDR4 4GB (1x8GB) 3200MHz",
+        "brand":"XPG",
+        "model":"4 GB",
+        "price":"12",
+        "image":"../../assets/ram-1.jpg",
+        "type":"RAM",
+        "about":"Do refer to the installation instruction and compatible processor support list in the image section, GAMMIX D30 brings you excellent performance with speeds ranging from 2666MHz to 4600MHz and supports Intel X299 2666MHz and AMD AM4 / Ryzen platforms. CAS Latency : CL16-18-18, Interface: DDR4 U-DIMM 2666-4133MHz, RAM Size: 8GB (8x16GB) DDR4"
+    },
+    {
+        "itemName":"XPG ADATA GAMMIX D30 DDR4 2GB (1x8GB) 3200MHz",
+        "brand":"XPG",
+        "model":"2 GB",
+        "price":"10",
+        "image":"../../assets/ram-1.jpg",
+        "type":"RAM",
+        "about":"Do refer to the installation instruction and compatible processor support list in the image section, GAMMIX D30 brings you excellent performance with speeds ranging from 2666MHz to 4600MHz and supports Intel X299 2666MHz and AMD AM4 / Ryzen platforms. CAS Latency : CL16-18-18, Interface: DDR4 U-DIMM 2666-4133MHz, RAM Size: 8GB (8x16GB) DDR4"
+    }
+]

@@ -1,0 +1,46 @@
+<div class="container mt-4">
+    <div class="row item-card mb-3 card shadow" *ngFor="let item of ItemsList">
+        <div class="col-3 h-100 p-3">
+            <img [src]="item?.image" class="border rounded">
+        </div>
+        <div class="col-7 h-100 p-3">
+            <div class="d-flex flex-column p-3 rounded shadow-item h-100">
+                <h4>{{item?.itemName}}</h4>
+                <div class="d-flex">
+                    <div class="d-flex flex-column p-2 w-100">
+                        <div>
+                            <h5>Price: {{item?.price | number}} CAD</h5>
+                        </div>
+                        <div class="d-flex flex-column abt-text w-100">
+                            <div class="d-flex w-100">
+                                <div *ngIf="item?.brand" class="w-100">
+                                    <strong>Brand: </strong>
+                                    {{item?.brand}}</div>
+                                <div *ngIf="item?.model" class="w-100">
+                                    <strong>Model: </strong>
+                                    {{item?.model}}</div>
+                            </div>
+                            <div class="d-flex w-100">
+                                <div *ngIf="item?.cores" class="w-100">
+                                    <strong>Cores: </strong>
+                                    {{item?.cores}}
+                                </div>
+                                <div *ngIf="item?.threads" class="w-100">
+                                    <strong>Threads:</strong>
+                                    {{item?.threads}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="abt-text mt-2">
+                            <strong>About:</strong> <br>
+                            {{item?.about}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-2 h-100 text-center p-5">
+            <button type="button" class="btn btn-outline-primary" (click)="addItem(item)"> Add Item</button>
+        </div>
+    </div>
+</div>
